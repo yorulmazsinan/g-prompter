@@ -4,13 +4,13 @@ G Prompter, kullanıcı gizliliğine önem verir. Bu gizlilik politikası, uygul
 
 ## Toplanan Veriler
 
-1. **Uygulama Tarafından Saklanan Veriler:**
+1. **Uygulama Tarafından Saklanan Veriler**
    - Kullanıcı tarafından girilen metinler
    - Yazı boyutu ve okuma hızı ayarları
 
    **Bu veriler yalnızca cihazınızda saklanır ve dışarıya aktarılmaz.**
 
-2. **Firebase Analytics Tarafından Toplanan Veriler:**
+2. **Firebase Analytics Tarafından Toplanan Veriler**
    
    Firebase Analytics, aşağıdaki bilgileri toplayabilir:
    
@@ -24,11 +24,11 @@ G Prompter, kullanıcı gizliliğine önem verir. Bu gizlilik politikası, uygul
 
 ## Veri Kullanımı
 
-1. **Uygulama Tarafından Saklanan Veriler:**
+1. **Uygulama Tarafından Saklanan Veriler**
    - Veriler yalnızca uygulama işlevlerini sağlamak için cihaz üzerinde tutulur.
    - Hiçbir veri üçüncü taraflarla paylaşılmaz veya cihazdan dışarıya aktarılmaz.
 
-3. **Firebase Analytics Tarafından Toplanan Veriler:**
+3. **Firebase Analytics Tarafından Toplanan Veriler**
    
    Firebase tarafından toplanan veriler, aşağıdaki amaçlarla kullanılır:
    
