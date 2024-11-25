@@ -18,4 +18,6 @@ Bu uygulamayı kullanmadan önce aşağıdaki şartları dikkatlice okuyunuz. Bu
 - Uygulama yalnızca olduğu gibi sunulur ve herhangi bir garanti içermez.
 
 ## İletişim
-Herhangi bir sorunuz veya talebiniz için bizimle iletişime geçebilirsiniz: info@sinanyorulmaz.com
+Herhangi bir sorunuz veya talebiniz için bizimle aşağıdaki e-posta adresinden iletişime geçebilirsiniz.
+
+info@sinanyorulmaz.com
