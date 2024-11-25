@@ -9,7 +9,6 @@ G Prompter, kullanıcı gizliliğine önem verir. Bu gizlilik politikası, uygul
    **Bu veriler yalnızca cihazınızda saklanır ve dışarıya aktarılmaz.**
 
 2. **Firebase Analytics Tarafından Toplanan Veriler**
-   
    Firebase Analytics, aşağıdaki bilgileri toplayabilir:
    
    - Cihaz türü ve modeli
@@ -26,8 +25,7 @@ G Prompter, kullanıcı gizliliğine önem verir. Bu gizlilik politikası, uygul
    - Veriler yalnızca uygulama işlevlerini sağlamak için cihaz üzerinde tutulur.
    - Hiçbir veri üçüncü taraflarla paylaşılmaz veya cihazdan dışarıya aktarılmaz.
 
-3. **Firebase Analytics Tarafından Toplanan Veriler**
-   
+2. **Firebase Analytics Tarafından Toplanan Veriler**
    Firebase tarafından toplanan veriler, aşağıdaki amaçlarla kullanılır:
    
    - Uygulama performansını artırmak ve kullanıcı deneyimini iyileştirmek
@@ -35,18 +33,15 @@ G Prompter, kullanıcı gizliliğine önem verir. Bu gizlilik politikası, uygul
    - Kullanıcıların uygulama içindeki davranışlarını anlamak
 
 ## Üçüncü Taraf Hizmetler
-
 Uygulamamız, Firebase Analytics hizmetini kullanmaktadır. Firebase, Google tarafından sağlanmaktadır ve toplanan veriler Google ile paylaşılabilir. Bu veriler, kullanıcıların kimliğini tespit etmek için kullanılmaz. Google’ın gizlilik politikası hakkında daha fazla bilgi için şu bağlantıya göz atabilirsiniz:
 [Google Gizlilik Politikası](https://policies.google.com/privacy)
 
 ## Kullanıcı Hakları
-
 Kullanıcılar, Firebase Analytics tarafından veri toplanmasını istemiyorsa, cihazlarındaki reklam ayarlarını değiştirebilir veya bizimle iletişime geçerek verilerinin silinmesini talep edebilir.
 
 Uygulama tarafından cihazda saklanan veriler, kullanıcı tarafından herhangi bir zamanda manuel olarak silinebilir.
 
 ## İletişim
-
 Gizlilik politikamızla ilgili sorularınız için bizimle aşağıdaki e-posta adresinden iletişime geçebilirsiniz.
 
 info@sinanyorulmaz.com

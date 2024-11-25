@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		186A3BB92CF4841E0090C9B5 /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = 186A3BB82CF4841E0090C9B5 /* MarkdownUI */; };
+		186A3BC12CF5031F0090C9B5 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 186A3BC02CF5031F0090C9B5 /* FirebaseAnalytics */; };
+		186A3BC32CF5031F0090C9B5 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 186A3BC22CF5031F0090C9B5 /* FirebaseAnalyticsOnDeviceConversion */; };
+		186A3BC52CF5031F0090C9B5 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 186A3BC42CF5031F0090C9B5 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		186A3BC72CF5031F0090C9B5 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 186A3BC62CF5031F0090C9B5 /* FirebaseAppCheck */; };
+		186A3BC92CF5031F0090C9B5 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 186A3BC82CF5031F0090C9B5 /* FirebaseAppDistribution-Beta */; };
+		186A3BCB2CF509D20090C9B5 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 186A3BCA2CF509D20090C9B5 /* FirebaseMessaging */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18BBAB3A2CED0057002CE97D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18BBAB212CED0052002CE97D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18BBAB282CED0053002CE97D;
+			remoteInfo = "G Prompter";
+		};
+		18BBAB442CED0057002CE97D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18BBAB212CED0052002CE97D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18BBAB282CED0053002CE97D;
+			remoteInfo = "G Prompter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1813D5202CF0B638003FC924 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184CD8FA2CF0F9C10085BDF3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		184CD9032CF0FD770085BDF3 /* G-Prompter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "G-Prompter-Info.plist"; sourceTree = "<group>"; };
+		18BBAB292CED0053002CE97D /* G Prompter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "G Prompter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BBAB392CED0057002CE97D /* G PrompterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "G PrompterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BBAB432CED0057002CE97D /* G PrompterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "G PrompterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		18BBAB2B2CED0053002CE97D /* G Prompter */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "G Prompter";
+			sourceTree = "<group>";
+		};
+		18BBAB3C2CED0057002CE97D /* G PrompterTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "G PrompterTests";
+			sourceTree = "<group>";
+		};
+		18BBAB462CED0057002CE97D /* G PrompterUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "G PrompterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18BBAB262CED0053002CE97D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186A3BC12CF5031F0090C9B5 /* FirebaseAnalytics in Frameworks */,
+				186A3BC32CF5031F0090C9B5 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				186A3BCB2CF509D20090C9B5 /* FirebaseMessaging in Frameworks */,
+				186A3BB92CF4841E0090C9B5 /* MarkdownUI in Frameworks */,
+				186A3BC72CF5031F0090C9B5 /* FirebaseAppCheck in Frameworks */,
+				186A3BC52CF5031F0090C9B5 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				186A3BC92CF5031F0090C9B5 /* FirebaseAppDistribution-Beta in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BBAB362CED0057002CE97D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BBAB402CED0057002CE97D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18BBAB202CED0052002CE97D = {
+			isa = PBXGroup;
+			children = (
+				184CD9032CF0FD770085BDF3 /* G-Prompter-Info.plist */,
+				18BBAB2B2CED0053002CE97D /* G Prompter */,
+				18BBAB3C2CED0057002CE97D /* G PrompterTests */,
+				18BBAB462CED0057002CE97D /* G PrompterUITests */,
+				18BBAB2A2CED0053002CE97D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18BBAB2A2CED0053002CE97D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18BBAB292CED0053002CE97D /* G Prompter.app */,
+				18BBAB392CED0057002CE97D /* G PrompterTests.xctest */,
+				18BBAB432CED0057002CE97D /* G PrompterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18BBAB282CED0053002CE97D /* G Prompter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BBAB4D2CED0057002CE97D /* Build configuration list for PBXNativeTarget "G Prompter" */;
+			buildPhases = (
+				18BBAB252CED0053002CE97D /* Sources */,
+				18BBAB262CED0053002CE97D /* Frameworks */,
+				18BBAB272CED0053002CE97D /* Resources */,
+				1813D5202CF0B638003FC924 /* Embed Watch Content */,
+				184CD8FA2CF0F9C10085BDF3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				18BBAB2B2CED0053002CE97D /* G Prompter */,
+			);
+			name = "G Prompter";
+			packageProductDependencies = (
+				186A3BB82CF4841E0090C9B5 /* MarkdownUI */,
+				186A3BC02CF5031F0090C9B5 /* FirebaseAnalytics */,
+				186A3BC22CF5031F0090C9B5 /* FirebaseAnalyticsOnDeviceConversion */,
+				186A3BC42CF5031F0090C9B5 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				186A3BC62CF5031F0090C9B5 /* FirebaseAppCheck */,
+				186A3BC82CF5031F0090C9B5 /* FirebaseAppDistribution-Beta */,
+				186A3BCA2CF509D20090C9B5 /* FirebaseMessaging */,
+			);
+			productName = "G Prompter";
+			productReference = 18BBAB292CED0053002CE97D /* G Prompter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18BBAB382CED0057002CE97D /* G PrompterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BBAB502CED0057002CE97D /* Build configuration list for PBXNativeTarget "G PrompterTests" */;
+			buildPhases = (
+				18BBAB352CED0057002CE97D /* Sources */,
+				18BBAB362CED0057002CE97D /* Frameworks */,
+				18BBAB372CED0057002CE97D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BBAB3B2CED0057002CE97D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				18BBAB3C2CED0057002CE97D /* G PrompterTests */,
+			);
+			name = "G PrompterTests";
+			packageProductDependencies = (
+			);
+			productName = "G PrompterTests";
+			productReference = 18BBAB392CED0057002CE97D /* G PrompterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18BBAB422CED0057002CE97D /* G PrompterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BBAB532CED0057002CE97D /* Build configuration list for PBXNativeTarget "G PrompterUITests" */;
+			buildPhases = (
+				18BBAB3F2CED0057002CE97D /* Sources */,
+				18BBAB402CED0057002CE97D /* Frameworks */,
+				18BBAB412CED0057002CE97D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BBAB452CED0057002CE97D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				18BBAB462CED0057002CE97D /* G PrompterUITests */,
+			);
+			name = "G PrompterUITests";
+			packageProductDependencies = (
+			);
+			productName = "G PrompterUITests";
+			productReference = 18BBAB432CED0057002CE97D /* G PrompterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18BBAB212CED0052002CE97D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					18BBAB282CED0053002CE97D = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					18BBAB382CED0057002CE97D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 18BBAB282CED0053002CE97D;
+					};
+					18BBAB422CED0057002CE97D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 18BBAB282CED0053002CE97D;
+					};
+				};
+			};
+			buildConfigurationList = 18BBAB242CED0052002CE97D /* Build configuration list for PBXProject "G Prompter" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18BBAB202CED0052002CE97D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				186A3BB72CF483F40090C9B5 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
+				186A3BBF2CF5031F0090C9B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 18BBAB2A2CED0053002CE97D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18BBAB282CED0053002CE97D /* G Prompter */,
+				18BBAB382CED0057002CE97D /* G PrompterTests */,
+				18BBAB422CED0057002CE97D /* G PrompterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18BBAB272CED0053002CE97D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BBAB372CED0057002CE97D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BBAB412CED0057002CE97D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18BBAB252CED0053002CE97D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BBAB352CED0057002CE97D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BBAB3F2CED0057002CE97D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18BBAB3B2CED0057002CE97D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18BBAB282CED0053002CE97D /* G Prompter */;
+			targetProxy = 18BBAB3A2CED0057002CE97D /* PBXContainerItemProxy */;
+		};
+		18BBAB452CED0057002CE97D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18BBAB282CED0053002CE97D /* G Prompter */;
+			targetProxy = 18BBAB442CED0057002CE97D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18BBAB4B2CED0057002CE97D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18BBAB4C2CED0057002CE97D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18BBAB4E2CED0057002CE97D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "G Prompter/G Prompter.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_ASSET_PATHS = "\"G Prompter/Preview Content\"";
+				DEVELOPMENT_TEAM = 4ZXF78557J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "G-Prompter-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Bu uygulama video kaydı yapmak için kamerayı kullanır.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Bu uygulama ses kaydı yapmak için mikrofonu kullanır.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Bu uygulama videoları galerinize kaydedebilir.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grana.g-prompter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18BBAB4F2CED0057002CE97D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "G Prompter/G Prompter.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_ASSET_PATHS = "\"G Prompter/Preview Content\"";
+				DEVELOPMENT_TEAM = 4ZXF78557J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "G-Prompter-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Bu uygulama video kaydı yapmak için kamerayı kullanır.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Bu uygulama ses kaydı yapmak için mikrofonu kullanır.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Bu uygulama videoları galerinize kaydedebilir.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grana.g-prompter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18BBAB512CED0057002CE97D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZXF78557J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "grana.G-PrompterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/G Prompter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/G Prompter";
+			};
+			name = Debug;
+		};
+		18BBAB522CED0057002CE97D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZXF78557J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "grana.G-PrompterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/G Prompter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/G Prompter";
+			};
+			name = Release;
+		};
+		18BBAB542CED0057002CE97D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZXF78557J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "grana.G-PrompterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "G Prompter";
+			};
+			name = Debug;
+		};
+		18BBAB552CED0057002CE97D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZXF78557J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "grana.G-PrompterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "G Prompter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18BBAB242CED0052002CE97D /* Build configuration list for PBXProject "G Prompter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BBAB4B2CED0057002CE97D /* Debug */,
+				18BBAB4C2CED0057002CE97D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BBAB4D2CED0057002CE97D /* Build configuration list for PBXNativeTarget "G Prompter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BBAB4E2CED0057002CE97D /* Debug */,
+				18BBAB4F2CED0057002CE97D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BBAB502CED0057002CE97D /* Build configuration list for PBXNativeTarget "G PrompterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BBAB512CED0057002CE97D /* Debug */,
+				18BBAB522CED0057002CE97D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BBAB532CED0057002CE97D /* Build configuration list for PBXNativeTarget "G PrompterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BBAB542CED0057002CE97D /* Debug */,
+				18BBAB552CED0057002CE97D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		186A3BB72CF483F40090C9B5 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/swift-markdown-ui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.1;
+			};
+		};
+		186A3BBF2CF5031F0090C9B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		186A3BB82CF4841E0090C9B5 /* MarkdownUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 186A3BB72CF483F40090C9B5 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
+			productName = MarkdownUI;
+		};
+		186A3BC02CF5031F0090C9B5 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 186A3BBF2CF5031F0090C9B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		186A3BC22CF5031F0090C9B5 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 186A3BBF2CF5031F0090C9B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		186A3BC42CF5031F0090C9B5 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 186A3BBF2CF5031F0090C9B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		186A3BC62CF5031F0090C9B5 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 186A3BBF2CF5031F0090C9B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		186A3BC82CF5031F0090C9B5 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 186A3BBF2CF5031F0090C9B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		186A3BCA2CF509D20090C9B5 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 186A3BBF2CF5031F0090C9B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 18BBAB212CED0052002CE97D /* Project object */;
+}
