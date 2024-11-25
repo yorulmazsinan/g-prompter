@@ -1,5 +1,3 @@
-# Kullanım Koşulları
-
 Bu uygulamayı kullanmadan önce aşağıdaki şartları dikkatlice okuyunuz. Bu şartlar, uygulamanın kullanımına ilişkin kuralları ve haklarınızı açıklar.
 
 ## Kullanım Şartları
