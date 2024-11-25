@@ -12,4 +12,5 @@ G Prompter uygulaması kullanıcı gizliliğine önem verir. Aşağıda hangi ve
 
 ## İletişim
 Sorularınız için bizimle iletişime geçebilirsiniz:
+
 **E-posta:** info@sinanyorulmaz.com
