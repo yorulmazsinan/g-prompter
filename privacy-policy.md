@@ -1,5 +1,3 @@
-# Gizlilik Politikası
-
 G Prompter, kullanıcı gizliliğine önem verir. Bu gizlilik politikası, uygulamamızın topladığı verileri, bunların nasıl kullanıldığını ve korunduğunu açıklar.
 
 ## Toplanan Veriler
@@ -48,4 +46,7 @@ Kullanıcılar, Firebase Analytics tarafından veri toplanmasını istemiyorsa, 
 Uygulama tarafından cihazda saklanan veriler, kullanıcı tarafından herhangi bir zamanda manuel olarak silinebilir.
 
 ## İletişim
-Gizlilik politikamızla ilgili sorularınız için bizimle iletişime geçebilirsiniz: info@sinanyorulmaz.com
+
+Gizlilik politikamızla ilgili sorularınız için bizimle aşağıdaki e-posta adresinden iletişime geçebilirsiniz.
+
+info@sinanyorulmaz.com
