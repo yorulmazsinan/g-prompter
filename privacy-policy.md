@@ -1,47 +1,63 @@
-G Prompter, kullanıcı gizliliğine önem verir. Bu gizlilik politikası, uygulamamızın topladığı verileri, bunların nasıl kullanıldığını ve korunduğunu açıklar.
+# 📜 Gizlilik Politikası
 
-## Toplanan Veriler
+**Zelzele**, kullanıcı gizliliğine büyük önem verir. Bu gizlilik politikası, uygulamamızın topladığı verileri, bu verilerin nasıl kullanıldığını ve nasıl korunduğunu açıklar.
 
-1. **Uygulama Tarafından Saklanan Veriler**
-   - Kullanıcı tarafından girilen metinler
-   - Yazı boyutu ve okuma hızı ayarları
+---
 
-   **Bu veriler yalnızca cihazınızda saklanır ve dışarıya aktarılmaz.**
+## 🗃️ Toplanan Veriler
 
-2. **Firebase Analytics Tarafından Toplanan Veriler**
-   Firebase Analytics, aşağıdaki bilgileri toplayabilir:
-   
-   - Cihaz türü ve modeli
-   - İşletim sistemi sürümü
-   - Uygulama kullanım verileri (örneğin, hangi ekranların ziyaret edildiği)
-   - Yaklaşık konum bilgileri (şehir düzeyinde)
-   - Çökme raporları ve hata günlükleri
+### 1. **Uygulama Tarafından Saklanan Veriler**
+- Kullanıcının seçtiği favori bölgeler  
+- Bildirim tercihleri (büyüklük filtresi, konum bazlı uyarılar)  
+- Giriş bilgileri (Apple veya Google ile giriş yapılması halinde ad, e-posta vb.)
 
-   Firebase tarafından toplanan bu veriler kimliksizleştirilir ve kullanıcıların kimliğiyle ilişkilendirilmez.
+**Bu veriler Firebase üzerinden güvenli şekilde saklanır. Misafir kullanıcılar için veri yalnızca cihaz üzerinde tutulur.**
 
-## Veri Kullanımı
+### 2. **Firebase Analytics Tarafından Toplanan Veriler**
+Firebase Analytics, aşağıdaki bilgileri toplayabilir:
 
-1. **Uygulama Tarafından Saklanan Veriler**
-   - Veriler yalnızca uygulama işlevlerini sağlamak için cihaz üzerinde tutulur.
-   - Hiçbir veri üçüncü taraflarla paylaşılmaz veya cihazdan dışarıya aktarılmaz.
+- 📱 Cihaz türü ve modeli  
+- 🛠️ İşletim sistemi sürümü  
+- 📊 Uygulama kullanım istatistikleri (örneğin, hangi ekranların ziyaret edildiği)  
+- 📍 Yaklaşık konum bilgisi (şehir düzeyinde)  
+- 🧱 Çökme raporları ve hata günlükleri  
 
-2. **Firebase Analytics Tarafından Toplanan Veriler**
-   Firebase tarafından toplanan veriler, aşağıdaki amaçlarla kullanılır:
-   
-   - Uygulama performansını artırmak ve kullanıcı deneyimini iyileştirmek
-   - Teknik sorunları tespit etmek ve çözmek
-   - Kullanıcıların uygulama içindeki davranışlarını anlamak
+Firebase tarafından toplanan bu veriler kimliksizleştirilir ve kullanıcıların kimliğiyle ilişkilendirilmez.
 
-## Üçüncü Taraf Hizmetler
-Uygulamamız, Firebase Analytics hizmetini kullanmaktadır. Firebase, Google tarafından sağlanmaktadır ve toplanan veriler Google ile paylaşılabilir. Bu veriler, kullanıcıların kimliğini tespit etmek için kullanılmaz. Google’ın gizlilik politikası hakkında daha fazla bilgi için şu bağlantıya göz atabilirsiniz:
-[Google Gizlilik Politikası](https://policies.google.com/privacy)
+---
 
-## Kullanıcı Hakları
-Kullanıcılar, Firebase Analytics tarafından veri toplanmasını istemiyorsa, cihazlarındaki reklam ayarlarını değiştirebilir veya bizimle iletişime geçerek verilerinin silinmesini talep edebilir.
+## 🔄 Veri Kullanımı
 
-Uygulama tarafından cihazda saklanan veriler, kullanıcı tarafından herhangi bir zamanda manuel olarak silinebilir.
+### 1. **Uygulama Tarafından Saklanan Veriler**
+- Uygulamanın temel işlevlerini sağlamak için tutulur.  
+- Üçüncü taraflarla paylaşılmaz ve cihaz dışına aktarılmaz (misafir oturumları için).  
 
-## İletişim
-Gizlilik politikamızla ilgili sorularınız için bizimle aşağıdaki e-posta adresinden iletişime geçebilirsiniz.
+### 2. **Firebase Analytics Verileri**
+Bu veriler aşağıdaki amaçlarla kullanılır:
 
-info@sinanyorulmaz.com
+- 🚀 Uygulama performansını artırmak  
+- 🛠️ Teknik sorunları tespit etmek ve düzeltmek  
+- 📈 Kullanıcı davranışlarını anlamak ve deneyimi iyileştirmek  
+
+---
+
+## 🔗 Üçüncü Taraf Hizmetler
+
+Uygulama, **Firebase Analytics** hizmetini kullanmaktadır. Firebase, **Google** tarafından sağlanmaktadır. Toplanan veriler Google ile paylaşılabilir, ancak kullanıcı kimliğiyle eşleştirilmez.  
+Daha fazla bilgi için [Google Gizlilik Politikası](https://policies.google.com/privacy) sayfasını ziyaret edebilirsiniz.
+
+---
+
+## 👤 Kullanıcı Hakları
+
+- Kullanıcılar, Firebase Analytics veri takibini sınırlamak için cihazlarındaki reklam ayarlarını değiştirebilir.  
+- Firebase’e bağlı verilerin silinmesini talep etmek için bizimle iletişime geçebilirler.  
+- Uygulama tarafından cihazda saklanan veriler, kullanıcı tarafından manuel olarak silinebilir.  
+
+---
+
+## ✉️ İletişim
+
+Gizlilik politikamızla ilgili sorularınız için bizimle aşağıdaki e-posta adresinden iletişime geçebilirsiniz:
+
+📧 **info@sinanyorulmaz.com**
